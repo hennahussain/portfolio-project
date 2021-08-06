@@ -1,0 +1,12 @@
+/*font-family: 'Hahmlet', serif: font-family: 'Libre Franklin', sans-serif;*/
+
+h1 {
+  color: black;
+  font-family: "Hahmlet", serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: normal;
+}
