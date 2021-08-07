@@ -77,6 +77,18 @@ p {
   padding: 120px 60px;
 }
 
+#img-border {
+  border: solid;
+  border-color: var(--secondary-color);
+  background-color: var(--secondary-color);
+}
+
+.img-fluid {
+  max-width: 70%;
+  height: auto;
+  padding: 40px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
