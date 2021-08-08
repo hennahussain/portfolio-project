@@ -36,7 +36,9 @@ p {
 }
 
 .hero {
-  background: var(--secondary-color);
+  border: 20px solid var(--secondary-color);
+  background-image: url(../images/yellowdesert.jpg);
+  background-size: cover;
   text-align: center;
   padding: 160px 20px;
 }
