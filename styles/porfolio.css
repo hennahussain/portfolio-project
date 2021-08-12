@@ -2,8 +2,8 @@
 :root {
   --branding-color: rgb(88, 88, 1);
   --secondary-color: #f5f1e6;
-  --heading-font-family: "Hahmlet", serif;
-  --default-font-family: "Libre Franklin", sans-serif;
+  --heading-font-family: "Cormorant Garamond", serif;
+  --default-font-family: "Arsenal", sans-serif;
 }
 
 body {
@@ -90,18 +90,18 @@ p {
   background: var(--branding-color);
   border-radius: 4px;
   color: white;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 27px;
-  padding: 15px 30px;
+  padding: 5px 15px;
 }
 
 .btn-branding-outline {
   color: var(--branding-color);
   border: 1px solid var(--branding-color);
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 15px;
   line-height: 27px;
-  padding: 15px 30px;
+  padding: 5px 10px;
 }
 
 .project-description {
@@ -115,9 +115,8 @@ p {
 }
 
 .img-fluid {
-  max-width: 70%;
+  max-width: 60%;
   height: auto;
-  padding: 40px;
 }
 
 @media (max-width: 900px) {
