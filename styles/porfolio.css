@@ -37,7 +37,7 @@ p {
 
 .hero {
   border: 20px solid var(--secondary-color);
-  background-image: url(../images/yellowdesert.jpg);
+  background-image: url(../images/rednailscomputer.jpg);
   background-size: cover;
   text-align: center;
   padding: 160px 20px;
@@ -110,6 +110,7 @@ p {
 
 #img-border {
   border: solid;
+  border-radius: 45px;
   border-color: var(--secondary-color);
   background-color: var(--secondary-color);
 }
@@ -117,6 +118,48 @@ p {
 .img-fluid {
   max-width: 60%;
   height: auto;
+}
+
+.background-image {
+  border: 20px solid var(--secondary-color);
+}
+
+.content-image {
+  max-width: 80%;
+  height: auto;
+  border: solid;
+  border-width: 30px;
+  border-color: var(--secondary-color);
+  background-color: var(--secondary-color);
+}
+.logo {
+  max-height: 70px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
 }
 
 @media (max-width: 900px) {
@@ -140,5 +183,13 @@ p {
   .content {
     text-align: center;
     padding: 0;
+  }
+
+  .logo {
+    max-width: 30px;
+  }
+
+  nav a {
+    font-size: 12px;
   }
 }
