@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About me</title>
+    <meta
+      name="description"
+      content="Contact Henna.  See Henna's Github profile. Henna is an front-end engineer based in USA"
+    />
+    <title>Contact Henna - Henna Hussain</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
@@ -32,6 +36,27 @@
   </head>
 
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img src="images/crown.png" class="logo" alt="Henna logo" />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Henna"> About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Henna's work"> Work</a>
+          </li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Henna"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="background-image">
       <div class="content-container container">
         <div class="content">
@@ -40,23 +65,15 @@
               <img
                 src="images/laptoponpoof.jpg"
                 class="img-fluid content-image"
-                alt=""
+                alt="lady sitting on pillow with her laptop"
               />
             </div>
             <div class="col-md-6">
-              <h1 class="mb-5">Say hi! Let's get in touch 😊</h1>
+              <h1 class="mb-5">Let's get in touch 😊</h1>
               <h3>Email</h3>
               <p>
                 <a href="mailto:hennahussainesq@gmail.com">
                   hennahussainesq@gmail.com
-                </a>
-              </p>
-              <h3>Instagram</h3>
-              <p>
-                <a
-                  href="https://www.instagram.com/thethingsicouldtellyou"
-                  target="_blank"
-                  >@thethingsicouldtellyou
                 </a>
               </p>
             </div>
@@ -64,5 +81,39 @@
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Henna"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="social-links d-flex justify-content-center mb-5">
+        <a
+          href="https://www.github.com/hennahussain"
+          target="_blank"
+          title="Github Profile"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+      <p class="text-center mt-5">
+        This project was coded by Henna Hussain and is
+        <a
+          href="https://github.com/hennahussain/portfolio-project"
+          target="_blank"
+          >open-sourced</a
+        >.
+      </p>
+    </footer>
   </body>
 </html>

@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About me</title>
+    <meta
+      name="description"
+      content="Work Henna has completed.  Coding projects made by Henna Hussain. Henna is an front-end engineer based in USA"
+    />
+    <title>Work - Henna Hussain</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
@@ -32,44 +36,114 @@
   </head>
 
   <body>
-    <div class="content-container container">
-      <div class="content">
-        <h1 class="text-center">Here's what I've been working on...</h1>
-        <h5 class="mb-5 text-center text-muted">
-          <em>
-            Progress, not perfection, is what we should be asking of ourselves.
-            -Julia Cameron
-          </em>
-        </h5>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img src="images/crown.png" class="logo" alt="Henna logo" />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li>
+            <a href="/about.html" title="About Henna"> About</a>
+          </li>
+          <li class="active">
+            <a href="/work.html" title="Henna's work"> Work</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Henna"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="background-work">
+      <div class="content-container container">
+        <div class="content">
+          <h1 class="text-center">Here's what I've been working on...</h1>
+          <h5 class="mb-5 text-center text-muted">
+            <em>
+              Progress, not perfection, is what we should be asking of
+              ourselves. -Julia Cameron
+            </em>
+          </h5>
 
-        <div class="row text-center">
-          <div class="col-md-6 mb-4">
-            <img src="images/dumbo.png" class="img-fluid rounded mb-5" alt="" />
-            <h3 class="text-center">Dumbo Octopus Page</h3>
-            <p class="text-center text-muted">Built with HTML and CSS</p>
-          </div>
-          <div class="col-md-6 mb-4">
-            <img src="images/weather.png" class="img-fluid rounded" alt="" />
-            <h3 class="text-center">Weather App</h3>
-            <p class="text-center text-muted">
-              Built with HTML, CSS, and JavaScript
-            </p>
-          </div>
-          <div class="row">
+          <div class="row text-center">
             <div class="col-md-6 mb-4">
               <img
-                src="images/portfolio.png"
-                class="img-fluid rounded"
-                alt=""
+                src="images/dumbo.png"
+                class="img-fluid rounded mb-5"
+                alt="dumbo octopus photo"
               />
-              <h3 class="text-center">Portfolio Project</h3>
+              <h3 class="text-center">Dumbo Octopus Page</h3>
+              <p class="text-center text-muted">Built with HTML and CSS</p>
+            </div>
+            <div class="col-md-6 mb-4">
+              <img src="images/weather.png" class="img-fluid rounded" alt="" />
+              <h3 class="text-center">Weather App</h3>
               <p class="text-center text-muted">
                 Built with HTML, CSS, and JavaScript
               </p>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-4">
+                <img
+                  src="images/portfolio.png"
+                  class="img-fluid rounded"
+                  alt="Portfolio project"
+                />
+                <h3 class="text-center">Portfolio Project</h3>
+                <p class="text-center text-muted">
+                  Built with HTML, CSS, and JavaScript
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Henna"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:hennahussainesq@gmail.com"
+          class="email-link"
+          title="Email me"
+        >
+          hennahussainesq@gmail.com
+        </a>
+      </div>
+      <div class="social-links d-flex justify-content-center mb-5">
+        <a
+          href="https://www.github.com/hennahussain"
+          target="_blank"
+          title="Github Profile"
+          ><i class="fab fa-github"></i
+        ></a>
+      </div>
+      <p class="text-center mt-5">
+        This project was coded by Henna Hussain and is
+        <a
+          href="https://github.com/hennahussain/portfolio-project"
+          target="_blank"
+          >open-sourced</a
+        >.
+      </p>
+    </footer>
   </body>
 </html>

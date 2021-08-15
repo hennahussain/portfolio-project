@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Henna is an front-end engineer based in USA"
+    />
+    <title>Front-end developer - Henna Hussain</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
@@ -33,19 +37,21 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <img src="images/crown.png" class="logo" alt="" />
+        <a href="/" title="Homepage">
+          <img src="images/crown.png" class="logo" alt="Henna logo" />
+        </a>
         <ul>
           <li class="active">
-            <a href="/"> Home</a>
+            <a href="/" title="Homepage"> Home</a>
           </li>
           <li>
-            <a href="/about.html"> About</a>
+            <a href="/about.html" title="About Henna"> About</a>
           </li>
           <li>
-            <a href="/work.html"> Work</a>
+            <a href="/work.html" title="Henna's work"> Work</a>
           </li>
           <li>
-            <a href="/contact.html"> Contact</a>
+            <a href="/contact.html" title="Contact Henna"> Contact</a>
           </li>
         </ul>
       </nav>
@@ -55,14 +61,20 @@
       <h1>Henna Hussain</h1>
       <h2 class="mb-5">Front-end developer based in USA</h2>
       <div>
-        <a href="#" class="btn btn-branding">Contact me</a>
+        <a href="/contact.html" class="btn btn-branding" title="Contact me"
+          >Contact me</a
+        >
       </div>
     </div>
     <p class="text-center m-5">Featured Projects</p>
     <div class="container">
       <div class="row">
         <div class="col d-none d-lg-block mb-5 text-center" id="img-border">
-          <img src="images/dumbo.png" class="img-fluid" alt="" />
+          <img
+            src="images/dumbo.png"
+            class="img-fluid"
+            alt="Dumbo Octopus project preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -71,11 +83,7 @@
               My first coding project! In SheCodes Basics, this page was made on
               the Dumbo Octopus with HTML, CSS, and Javascript.
             </p>
-            <a
-              href="https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/000/122/401/original/project.html?1602452474"
-              class="btn btn-branding-outline"
-              >Learn more</a
-            >
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -89,20 +97,24 @@
               OpenWeather API to gather information and is hosted online using
               Github and Netlify.
             </p>
-            <a
-              href="https://dreamy-wiles-3d56f5.netlify.app"
-              class="btn btn-branding-outline"
-              >Learn more</a
-            >
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
         <div class="col d-none d-lg-block text-center" id="img-border">
-          <img src="images/weather.png" class="img-fluid" alt="" />
+          <img
+            src="images/weather.png"
+            class="img-fluid"
+            alt="Weather project preview"
+          />
         </div>
       </div>
       <div class="row mb-5">
         <div class="col d-none d-lg-block text-center" id="img-border">
-          <img src="images/portfolio.png" class="img-fluid" alt="" />
+          <img
+            src="images/portfolio.png"
+            class="img-fluid"
+            alt="Portfolio project preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -113,11 +125,7 @@
               Github and Netlify. As I continue my coding journey, I will update
               this page!
             </p>
-            <a
-              href="https://optimistic-turing-8d0e5a.netlify.app/"
-              class="btn btn-branding-outline"
-              >Learn more</a
-            >
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -126,23 +134,43 @@
           class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
         >
           <div>
-            <h4>Work Inquiry</h4>
+            <h3>Work Inquiry</h3>
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3">Contact me</a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Henna"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:hennahussainesq@gmail.com" class="email-link">
+          <a
+            href="mailto:hennahussainesq@gmail.com"
+            class="email-link"
+            title="Email me"
+          >
             hennahussainesq@gmail.com
           </a>
         </div>
         <div class="social-links d-flex justify-content-center mb-5">
-          <a href="https://www.github.com/hennahussain" target="_blank"
+          <a
+            href="https://www.github.com/hennahussain"
+            target="_blank"
+            title="Github Profile"
             ><i class="fab fa-github"></i
           ></a>
         </div>
+        <p class="text-center mt-5">
+          This project was coded by Henna Hussain and is
+          <a
+            href="https://github.com/hennahussain/portfolio-project"
+            target="_blank"
+            >open-sourced</a
+          >.
+        </p>
       </footer>
     </div>
   </body>
